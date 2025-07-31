@@ -1,7 +1,7 @@
 # 🏦 E-Banking Backend
 
 Une application backend développée avec **Spring Boot** permettant la gestion des clients et de leurs comptes bancaires.  
-Elle offre des fonctionnalités telles que la création de clients, la gestion des comptes, ainsi que les opérations bancaires (dépôts, retraits).  
+Elle offre des fonctionnalités telles que la création de clients, la gestion des comptes, ainsi que les opérations bancaires (dépôts, retraits, transferts).  
 
 ## 🚀 Fonctionnalités
 
@@ -26,7 +26,7 @@ src/main/java/org/sid/ebankingbackend
 ├── mappers # MapStruct pour convertir Entities ↔ DTOs
 ├── repositories # Interfaces JPA Repository
 ├── services # Logique métier
-└── web # Contrôleurs REST (APIs exposées)
+└── web # Contrôleurs REST (APIs exposées) 
 
 
 
@@ -69,8 +69,9 @@ Démarrez l’application puis accédez à :
 
 ### 1. Cloner le projet
 ```bash
-git clone  https://github.com/waelsaadi-dev/bank-account-management.git
+git clone https://github.com/votre-repo/ebanking-backend.git
 cd ebanking-backend
+
 2. Compiler et exécuter
 bash
 Copier
