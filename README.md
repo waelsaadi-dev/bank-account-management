@@ -67,7 +67,7 @@ Démarrez l’application puis accédez à :
 
 ## ▶️ Lancement du projet
 
-### 1. Cloner le projet
+1. Cloner le projet
 ```bash
 git clone https://github.com/votre-repo/ebanking-backend.git
 cd ebanking-backend
