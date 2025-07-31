@@ -1,7 +1,7 @@
 # 🏦 E-Banking Backend
 
 Une application backend développée avec **Spring Boot** permettant la gestion des clients et de leurs comptes bancaires.  
-Elle offre des fonctionnalités telles que la création de clients, la gestion des comptes, ainsi que les opérations bancaires (dépôts, retraits, transferts).  
+Elle offre des fonctionnalités telles que la création de clients, la gestion des comptes, ainsi que les opérations bancaires (dépôts, retraits).  
 
 ## 🚀 Fonctionnalités
 
@@ -69,19 +69,14 @@ Démarrez l’application puis accédez à :
 
 1. Cloner le projet
 ```bash
-git clone https://github.com/votre-repo/ebanking-backend.git
+git clone https://github.com/waelsaadi-dev/bank-account-management.git
 cd ebanking-backend
 
 2. Compiler et exécuter
-bash
-Copier
-Modifier
+
 ./mvnw spring-boot:run
 ou avec Maven installé :
 
-bash
-Copier
-Modifier
 mvn spring-boot:run
 3. Accéder à l’application
 API Swagger : http://localhost:8085/swagger-ui.html
@@ -91,16 +86,14 @@ Base H2 : http://localhost:8085/h2-console
 📦 Exemple JSON
 Création d’un client
 json
-Copier
-Modifier
+
 {
   "name": "Jean Dupont",
   "email": "jean.dupont@example.com"
 }
 Dépôt sur un compte
 json
-Copier
-Modifier
+
 {
   "accountId": "12345",
   "amount": 1000,
@@ -108,8 +101,7 @@ Modifier
 }
 Retrait sur un compte
 json
-Copier
-Modifier
+
 {
   "accountId": "12345",
   "amount": 200,
